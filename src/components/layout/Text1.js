@@ -9,3 +9,4 @@ class Text1 extends Component {
 }
 
 export default Text1;
+// Don't need this anymore, was just testing how to pass components to App.js
