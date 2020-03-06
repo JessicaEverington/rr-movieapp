@@ -8,7 +8,7 @@ function Navbar() {
             </h1>
             <img 
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.auth0.com%2Fblog%2Freact-js%2Freact.png&f=1&nofb=1" alt="React icon" 
-                className="img-fluid col-1"
+                className="icon"
             />
         </nav>
     )

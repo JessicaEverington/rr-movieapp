@@ -25,11 +25,11 @@ export const fetchMovies = text => dispatch => {
     .catch(error => console.log(error))
 }
 
-export const fetchMovie = id => dispatch => {
+export const fetchMovie = movieId => dispatch => {
     // send the http request via API and get response
     console.log('running single movie fetch');
     axios
-    .get(`https://www.omdbapi.com/?apikey=${APIKey}&i=${id}`)
+    .get(`https://www.omdbapi.com/?apikey=${APIKey}&i=${movieId}`)
     .then(response => dispatch({
         type: FETCH_MOVIE,
         payload: response.data,

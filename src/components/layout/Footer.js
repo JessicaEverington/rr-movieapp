@@ -2,10 +2,8 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className="bg-light mt-auto py-3">
-            <div className="container">
-                <span className="text-muted">Jessica Everington</span>
-            </div>
+        <footer className="bg-light mt-auto footer">
+            <span className="ml-4 text-muted">Jessica Everington</span>
         </footer>
     )
 }

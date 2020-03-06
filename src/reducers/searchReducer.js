@@ -25,12 +25,14 @@ export default function(state = initialState, action) {
             return {
                 ...state,
                 movies: action.payload,
+                loading: false
             }
 
         case FETCH_MOVIE:
             return {
                 ...state,
                 movie: action.payload,
+                loading: false
             };
         // always requires a default as well
         default: 
