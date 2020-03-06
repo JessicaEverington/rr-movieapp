@@ -5,7 +5,7 @@ import Spinner from '../layout/Spinner'
 import MoviesContainer from './MoviesContainer'
 
 
-export class Landing extends Component {
+export class Home extends Component {
     render() {
         const {loading} = this.props.loading
         return (
@@ -23,4 +23,4 @@ const mapStateToProps = state => ({
     loading: state.movies.loading
 })
 
-export default connect(mapStateToProps)(Landing)
+export default connect(mapStateToProps)(Home)

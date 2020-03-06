@@ -19,7 +19,7 @@ export class Movie extends Component {
         let movieInfo = (
                 <div className="card mb-3 bg-light">
                     <div className="card-body mx-0 row"> 
-                        <div className="col-6 col-md-3" >
+                        <div className="col-6 col-md-4" >
                             <img 
                             className="img-fluid" 
                             src={movie.Poster} 

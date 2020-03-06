@@ -7,7 +7,7 @@ import {HashRouter as Router, Route} from 'react-router-dom'
 // adding the components
 import Navbar from './components/layout/Navbar'; 
 import Footer from './components/layout/Footer';
-import Landing from './components/home/Landing';
+import Home from './components/home/Home';
 import Movie from './components/home/Movie';
 // adding Redux stire
 import store from './store';
@@ -22,8 +22,8 @@ class App extends Component {
                 {/* Router needs stuff wrapped in a div  */}
                     <div>
                         <Navbar />
-                        {/* <Landing /> */}
-                        <Route exact path="/" component={Landing} />
+                        {/* <Home /> */}
+                        <Route exact path="/" component={Home} />
                         <Route exact path="/movie/:id" component={Movie} />
                         <Footer />
                     </div>
