@@ -19,7 +19,7 @@ export class MovieCard extends Component {
                         <h5 className="card-title">{movie.Title}</h5>
                         <p className="card-text">{movie.Year}</p>
                         <Link 
-                            to={'movie/'+ movie.imdbID } 
+                            to={`movie/${movie.imdbID}`} 
                             className="btn btn-info px-5">
                             See details
                         </Link>

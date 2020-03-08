@@ -10,7 +10,7 @@ export class MoviesContainer extends Component {
         console.log(movies);
 
         // ternary: does movies have length? Yes-map the movies so each results displays the way I want
-        content = movies.length > 0 ? movies.map((movie, index) => <MovieCard key={index} movie={movie} />) : console.log('no movies yet');
+        content = movies && movies.length > 0 ? movies.map((movie, index) => <MovieCard key={index} movie={movie} />) : console.log('no movies yet');
         console.log(content) // content is undefined
 
         return (
