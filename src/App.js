@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-// adding reduc provider - it "provides" the store to app
+// adding redux provider - it "provides" the store to app
 import {Provider} from 'react-redux';
 // using Hashrouter prevents issues with brower routers on deploy
 import {HashRouter as Router, Route} from 'react-router-dom'
